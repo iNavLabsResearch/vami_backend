@@ -1,0 +1,16 @@
+{
+  "database": {
+    "supabase_url": "https://vami-surat.jiobase.com",
+    "supabase_service_role_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9pY3NuYnBlcWR4bGtwZ3R3cHJ1Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MjQ1OTE3NywiZXhwIjoyMDg4MDM1MTc3fQ.c4PE24ym4c29hNThjptFmIhixHL82PwxYevIzIe8c5Y"
+  },
+  "security": {
+    "jwt_secret": "change-this-to-a-long-random-secret-at-least-32-chars",
+    "jwt_algorithm": "HS256",
+    "access_token_expires_minutes": 1440
+  },
+  "admin": {
+    "software_owner_email": "admin@vamisurat.com",
+    "software_owner_password": "vami@surat"
+  }
+}
+
